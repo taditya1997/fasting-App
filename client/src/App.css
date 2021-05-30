@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body{
+  margin: 20px 40px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  background: #fafafa;
+}
+.App{
+  
+  align-items: center;
+
+}
+.navbar
+{
+  background-color:#660099;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  
+}
+.navbar>.IconHeader{
+color:white;
+margin-left:10px;
+}
+
+
+
+.navbar>.buttons
+{
+   display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    width:200px;
+    margin-right:20px;
+
+}
+
+.Home{
+
+  margin-top:30px;
+  padding:20px;
+  display:flex;
+  justify-content:center;
+  
+}
+.Home>.image
+{
+  display:flex;
+  flex-direction:row;
+  
+  
+}
+.image>img{
+  width: 250px;
+  margin-right: 40px;
+}
+
+.description>h2
+{
+font-size: 3em;
+margin-bottom: 10px;
+flex-direction:row;
+    display:flex;
+}
